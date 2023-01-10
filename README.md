@@ -1,29 +1,30 @@
-# TRABALHO  DE  BANCO DE DADOS
 
-### A montadora Ferrari possui atuação nas categorias de corrida F1, F2, F3, F4, Fórmula E e DTM. 
-Como ocorrem diversas corridas em um mesmo final de semana e em diferentes continentes, com 
-possiblidade de mais de uma corrida por categoria. Essa utiliza o RMS(Race Management System) 
-para realizar o gerenciamento dos recursos de cada GP.
+# DATABASE JOB
 
-* A fabricante possui funcionários que são identificados por código e descritos por nome, data 
-de nascimento, idade, sexo, e-mail, telefone celular, telefone residencial, salário e endereço. 
-Um funcionário pode ser engenheiro, assistente ou auxiliar. Sendo o engenheiro minuciado 
-por seu tipo de atuação e o assistente pelo seu grau.
+### The automaker Ferr operates in the racing categories F1, F2, F3, F4, Formula E and DTM.
+As several races take place in the same weekend and on different continents, with
+possibility of more than one race per category. This uses the RMS (Race Management System)
+to manage the resources of each GP.
 
-* Vários funcionários estão alocados no mínimo a uma corrida e essa é identificada por seu 
-código e descrita por categoria, data de início, data de término, duração, nome e localização. 
-São também atribuídos a quantidade de horas alocadas por funcionário e a data da alocação.
-* Para cada corrida são alocados no mínimo 1 um carro, o qual é dito por seu identificador, cor, 
-motor, quantidade de peças, ano, modelo, potência, número de série e número de chassi único. 
-O mesmo é composto por peças e possui identificador, data de fabricação, valor e fabricante.
+* The manufacturer has employees who are identified by code and described by name, date
+birth, age, sex, e-mail, cell phone, home phone, salary and address.
+An employee can be an engineer, assistant or assistant. Being the detailed engineer
+by his type of performance and the assistant by his degree.
 
-* Um carro pode ser pilotado por 1 ou mais pilotos durante uma corrida, e o piloto não é 
-considerado funcionário, uma vez que está associado a uma academia de pilotos identificada 
-por código, nome e localização. Uma academia possui no mínimo um piloto em associação a 
-montadora para a corrida.
+* Several employees are allocated at least one race and this is identified by its
+code and described by category, start date, end date, duration, name and location.
+The number of hours allocated per employee and the allocation date are also assigned.
+* For each race at least 1 car is allocated, which is said by its identifier, color,
+engine, quantity of parts, year, model, horsepower, serial number and unique chassis number.
+It is composed of parts and has an identifier, date of manufacture, value and manufacturer.
+
+* A car can be driven by 1 or more drivers during a race, and the driver is not
+considered an employee, since it is associated with an identified pilot academy
+by code, name and location. An academy has at least one pilot in association with
+automaker for the race.
  
-* O mesmo possui contrato anual com a academia e pode ser minuciado por identificador de 
-piloto, data de nascimento, nome, idade, nacionalidade, quantidade de corridas realizadas, 
-quantidade de pódios, quantidade de pole positions, quantidade de corridas vencidas, 
-quantidades de dnf´s , pontos marcados e posição no campeonato. Esse também é atrelado a 
-no mínimo uma corrida e possui registro a mesma
+* It has an annual contract with the academy and can be detailed by identifier of
+driver, date of birth, name, age, nationality, number of races performed,
+number of podiums, number of pole positions, number of races won,
+amounts of dnf's, points scored and position in the championship. This is also linked to
+at least one run and has a record of the same
