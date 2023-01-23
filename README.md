@@ -1,3 +1,4 @@
+<div align="justify">
 
 # DATABASE JOB
 
@@ -28,3 +29,5 @@ driver, date of birth, name, age, nationality, number of races performed,
 number of podiums, number of pole positions, number of races won,
 amounts of dnf's, points scored and position in the championship. This is also linked to
 at least one run and has a record of the same
+
+<div>
